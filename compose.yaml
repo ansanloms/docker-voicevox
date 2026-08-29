@@ -1,0 +1,8 @@
+services:
+  backend:
+    image: docker.io/voicevox/voicevox_engine:cpu-0.26.0-dev
+    ports:
+      - "50021:50021"
+    restart: unless-stopped
+    tmpfs:
+      - /tmp
