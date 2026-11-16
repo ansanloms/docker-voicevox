@@ -1,6 +1,6 @@
 services:
   backend:
-    image: docker.io/voicevox/voicevox_engine:cpu-0.26.0-dev
+    image: docker.io/voicevox/voicevox_engine:cpu-0.26.2
     ports:
       - "50021:50021"
     restart: unless-stopped
